@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{ font-size: 10px; color: black;}
+
+#mainContainer{
+    width: 1420px;
+    margin: 0 auto;
+}
+
+nav{justify-content: space-between; align-items: center;}
+nav ul{display: flex; width: 445px;}
+nav ul li{list-style: none; padding: 14px; border-radius: 8px; }
+nav ul li:hover{background-color: black; color: white;}
+
+#main_t_img{ position: absolute;}
+#main_t_title{line-height: 100px; top: 150px; left: 620px; font-size: 4rem; font-weight: 300;}
+#main_t_txt{ position: absolute; font-size: 1.4rem;}
+
+
+.main_trump{display: flex; position: relative; width: 1420px;}
+
+.col12{width: 100%; padding: 0px 10px;}
+.col11{width: 91.67%; padding: 0px 10px;}
+.col10{width: 83.33%; padding: 0px 10px;}
+.col9{width: 74.99%; padding: 0px 10px;}
+.col8{width: 66.66%; padding: 0px 10px;}
+.col7{width: 58.33%; padding: 0px 10px;}
+.col6{width: 50%; padding: 0px 10px;}
+.col6{width: 50%; padding: 0px 10px;}
+.col5{width: 41.66%; padding: 0px 10px;}
+.col4{width: 600px; padding: 0px 70px;}
+.col3{left: 300px; width: 25%; padding: 0px 20px;}
+.col2{width: 16.66%; padding: 0px 10px;}
+.col1{width: 8.33%; padding: 0px 10px;}
+
+.h-50{height: 50px;}
+.h-100{height: 100px;}
+.h-290{height: 290px;}
+.h-450{height: 450px;}
+.h-540{height: 540px;}
+
+
+.topMarginBar{height: 132px;}
+
+.sm-title{
+	font-size: 2rem;
+	text-align: left;
+}
+
+nav ul li{font-size: 2rem;}
+.main-text{font-size: 1rem;}
+
+.text-en-medium{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.title-en{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size:  8rem;
+}
+
+.adbox {
+    opacity: 0.6;
+    font-family: Inter;
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: 0;
+    margin-bottom: 20px; /* 제목 아래 여백 추가 */
+}
+
+.row {
+    display: flex;
+    justify-content: center; /* 사진들을 가운데 정렬 */
+    gap: 10px; /* 사진들 사이에 간격 추가 */
+}
+
+
+
+.img-fit {
+    width: 100%;
+    height: 80%;
+}
+
+.img-fit_title {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center; /* 세로 중앙 정렬 */
+}
+
+.left {
+    flex-grow: 1; /* 남은 공간 차지 */
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.j-btw {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.j-btw li {
+    margin-left: 20px; /* 항목 사이 간격 조정 */
+}
+
+.col4_main-text {
+	/* 트럼프 본문 내용*/
+    width: 400px; /* 원하는 너비로 설정 */
+    margin: 0 auto; /* 중앙 정렬 (선택 사항) */
+    line-height: 1.5; /* 줄 간격 조정 (선택 사항) */
+    padding: 10px; /* 여백 추가 (선택 사항) */
+    box-sizing: border-box; /* 패딩 포함하여 너비 계산 */
+    font-size: 12px;
+}
+
+.trump {
+   background-color : rgba(242.53223061561584, 242.53223061561584, 242.53223061561584, 1);
+}
